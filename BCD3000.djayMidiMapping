@@ -8,9 +8,9 @@
 	<array>
 		<dict>
 			<key>controlType</key>
-			<string>rotary-64</string>
+			<string>rotary</string>
 			<key>keyPath</key>
-			<string>turntable1.speed</string>
+			<string>turntable1.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -207,9 +207,9 @@
 		</dict>
 		<dict>
 			<key>controlType</key>
-			<string>rotary-64</string>
+			<string>rotary</string>
 			<key>keyPath</key>
-			<string>turntable2.speed</string>
+			<string>turntable2.scratchingMove</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -224,7 +224,7 @@
 				<real>64</real>
 			</dict>
 			<key>rotarySensitivity</key>
-			<real>89</real>
+			<real>84</real>
 		</dict>
 		<dict>
 			<key>keyPath</key>
@@ -655,7 +655,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>application.turntable1Selected</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -672,7 +672,7 @@
 		</dict>
 		<dict>
 			<key>keyPath</key>
-			<string>turntable2</string>
+			<string>application.turntable2Selected</string>
 			<key>midiChannel</key>
 			<integer>0</integer>
 			<key>midiData</key>
@@ -775,4 +775,3 @@
 	<integer>0</integer>
 </dict>
 </plist>
-
